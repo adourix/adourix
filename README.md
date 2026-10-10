@@ -6,10 +6,10 @@
 
 **Computer & Communication Engineering Graduate · Mansoura University · Egypt**
 
-[![GitHub](https://img.shields.io/badge/GitHub-adourix-181717?style=flat-square&logo=github)](https://github.com/adourix)
-[![Research Focus](https://img.shields.io/badge/Focus-Networked%20Systems-0A66C2?style=flat-square)](#research-interests)
-[![LNCS](https://img.shields.io/badge/Project-LNCS-2EA44F?style=flat-square)](https://github.com/adourix/ayad-network-manager)
-[![GPA](https://img.shields.io/badge/GPA-3.79%2F4.00-6F42C1?style=flat-square)](#education)
+[![GitHub](https://img.shields.io/badge/GitHub-adourix-181717?style=for-the-badge&logo=github)](https://github.com/adourix)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdulrahman%20Ayad-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/abdulrahman-ayad-7a09342a6/)
+[![Research](https://img.shields.io/badge/Focus-Networked%20Systems-2E7D32?style=for-the-badge)](#research-interests)
+[![LNCS](https://img.shields.io/badge/Research-LNCS-6A1B9A?style=for-the-badge)](https://github.com/adourix/ayad-network-manager)
 
 </div>
 
@@ -19,165 +19,136 @@
 
 I am a **Computer & Communication Engineering graduate from Mansoura University, Egypt**, interested in building and researching reliable networked and systems infrastructure.
 
-My work sits at the boundary between **high-level system intent and low-level enforcement**: how a policy is expressed, translated into operating-system mechanisms, observed in the running system, and reconciled when the realized state diverges from what was intended.
-
-My current research direction is centered on **Networked Systems, Network Management & Programmability, Linux Systems, and Automated Policy Enforcement**.
-
----
+My current research direction sits at the intersection of **networked systems, Linux systems, network programmability, and automated policy enforcement**. I am particularly interested in the gap between what a system is *supposed* to enforce and what the operating system is *actually* enforcing.
 
 ## Research Interests
 
-```text
-Networked Systems
-├── Network Management & Programmability
-├── Declarative / Intent-Based Network Control
-├── Linux Systems & Kernel Networking
-├── Automated Policy Enforcement
-├── State Reconciliation & Configuration Correctness
-├── Systems Performance
-└── Cloud & Container Infrastructure
-```
-
-I am particularly interested in research problems involving **programmable networking, closed-loop control, realized-vs-desired state, enforcement correctness, and the systems cost of maintaining network policy**.
+- Networked Systems & Network Management
+- Network Programmability & Automation
+- Linux Systems & Kernel Networking
+- Declarative Policy Enforcement
+- State Reconciliation & Configuration Correctness
+- Systems Performance
+- Cloud & Container Infrastructure
 
 ---
 
-## Featured Work
+## Featured Research
 
-### Linux Network Control System — LNCS
+### Linux Network Control System (LNCS)
 
-> A policy-driven Linux network control system for declarative policy enforcement, state inspection, and reconciliation.
+A policy-driven Linux gateway control system exploring how **declarative network intent can be translated into kernel-level enforcement and continuously reconciled with realized state**.
 
-LNCS is my main undergraduate systems project. It explores the gap between **declared network policy** and the **state actually realized by the Linux networking stack**.
+**Core work:**
 
-**Core ideas**
+- Controlled enforcement boundary for Linux networking operations
+- `nftables`, `tc` / HTB, IFB, and `iproute2`
+- Desired-state vs. actual-state inspection
+- Policy and traffic-control reconciliation
+- Bandwidth limits, quotas, schedules, and application/port rules
+- DHCP, neighbor/ARP, and device-identity handling
 
-- Declarative device and network policies
-- Controlled enforcement boundary for Linux networking
-- `nftables` firewall enforcement
-- `tc` / HTB / IFB traffic shaping
-- `iproute2` state inspection
-- Desired-state vs. actual-state modeling
-- Policy-state reconciliation
-- Device identity and network-state observation
-- Single-interface + IFB deployment model
-
-**Research question**
+**Research question:**
 
 > How can declarative network policies be continuously reconciled with realized Linux enforcement state while providing measurable guarantees about correctness, convergence, and enforcement cost?
 
-[**View LNCS →**](https://github.com/adourix/ayad-network-manager)
+**Repository:** [ayad-network-manager](https://github.com/adourix/ayad-network-manager)
+
+**Current scope:** single-interface routing with IFB-based traffic shaping. Quantitative performance guarantees are not claimed; real-hardware benchmarking is part of future evaluation.
 
 ---
+
+## Selected Projects
 
 ### AyadCloud
 
-A self-hosted cloud platform project focused on **containerized infrastructure, automated deployment, reverse-proxy routing, and service networking**.
-
-**Highlights**
+A self-hosted platform project focused on containerized deployment, automated application delivery, and service networking.
 
 - Docker-based application deployment
 - Nginx reverse-proxy routing
-- HTTPS / TLS
+- HTTPS/TLS
 - GitHub webhook-driven deployment
-- Multi-container networking
-- Automated application delivery
+- Multi-container infrastructure
 
-[**View AyadCloud →**](https://github.com/adourix/ayadcloud)
-
----
+[View repository →](https://github.com/adourix/ayadcloud)
 
 ### AI-Enhanced SD-WAN
 
-A team project exploring machine-learning-assisted SD-WAN. My contribution focused on the **networking and experimentation infrastructure**:
+A team project exploring machine-learning-assisted SD-WAN. My contribution focused on **network topology design, WAN traffic generation and measurement, and the attack-simulation testbed**.
 
-- Network topology design
-- WAN traffic generation and measurement
-- Network experimentation
-- Attack-simulation testbed
-
-[**View Project →**](https://github.com/adourix/depi-garduation-project)
+[View repository →](https://github.com/adourix/depi-garduation-project)
 
 ---
 
-## Technical Stack
+## Technical Areas
 
-### Networking & Linux
-
-`Linux` · `TCP/IP` · `Routing` · `nftables` · `tc` · `HTB` · `IFB` · `iproute2` · `ARP` · `dnsmasq` · `SDN`
-
-### Systems & Backend
-
-`Node.js` · `TypeScript` · `Fastify` · `REST APIs` · `WebSockets` · `Python` · `C/C++`
-
-### Data & Interfaces
-
-`PostgreSQL` · `Prisma` · `SQLite` · `React` · `Vite`
-
-### Infrastructure & Cloud
-
-`Docker` · `Nginx` · `HTTPS/TLS` · `GitHub Webhooks` · `Azure` · `CI/CD`
-
-### Networking & Cloud Training
-
-`CCNA` · `CCNP ENCOR` · `AZ-900` · `AZ-104`
+| Area | Technologies |
+|---|---|
+| **Linux Networking** | `nftables` · `tc` · HTB · IFB · `iproute2` · ARP · `dnsmasq` |
+| **Networking** | TCP/IP · Routing · Network Automation · SDN Concepts |
+| **Systems** | Linux · Docker · Nginx · Container Networking |
+| **Backend** | Node.js · TypeScript · Fastify · REST APIs · WebSockets |
+| **Data** | PostgreSQL · Prisma · SQLite · React |
+| **Programming** | Python · JavaScript · TypeScript · C/C++ |
+| **Cloud / DevOps** | Azure · Docker · CI/CD · GitHub Webhooks · Infrastructure Automation |
 
 ---
 
 ## Education
 
-**B.Sc. in Computer & Communication Engineering**  
-**Mansoura University, Egypt** · 2022–2026
-
+**B.Sc. in Computer and Communication Engineering**  
+**Mansoura University, Egypt** · 2022–2026  
 **GPA: 3.79 / 4.00**
 
-Relevant areas include operating systems, computer networks, network security, distributed systems, algorithms and data structures, and databases.
+### Relevant Coursework
+
+Operating Systems · Computer Networks · Network Security · Distributed Systems · Algorithms & Data Structures · Databases
 
 ---
 
-## Research Direction
+## Certifications & Training
+
+- Cisco **CCNA**
+- Cisco **CCNP ENCOR** — in progress
+- Microsoft **Azure Fundamentals (AZ-900)**
+- Microsoft **Azure Administrator (AZ-104)** — in progress
+- Huawei **HCIA-AI**
+
+---
+
+## Current Direction
 
 I am preparing for **thesis-based Master's research for Fall 2027**.
 
-I am looking for research problems where networking and systems meet, especially:
+I am particularly interested in research problems involving:
 
 - Programmable network infrastructure
 - Linux kernel networking
-- Network control and automation
-- Declarative / intent-based networking
-- Automated configuration repair
-- State reconciliation and correctness
-- Performance and resource costs of enforcement
+- eBPF / XDP as future systems research directions
+- Automated network configuration and policy enforcement
+- Closed-loop control and state reconciliation
+- Correctness, convergence, and isolation
+- Performance and resource costs of network enforcement
 - Cloud and container networking
 
-Technologies such as **eBPF/XDP and programmable data planes** are areas I am interested in exploring further; they are not claimed as implemented features of LNCS.
+The goal is to understand how infrastructure can move from **declared intent → automated enforcement → observed state → verification → correction**.
 
 ---
 
-## Selected Repositories
+## Connect
 
-| Project | Focus | Stack |
-|---|---|---|
-| [**ayad-network-manager**](https://github.com/adourix/ayad-network-manager) | Linux network control & policy enforcement | TypeScript · Linux · nftables · tc |
-| [**ayadcloud**](https://github.com/adourix/ayadcloud) | Self-hosted cloud infrastructure | Docker · Node.js · Nginx |
-| [**depi-garduation-project**](https://github.com/adourix/depi-garduation-project) | AI-assisted SD-WAN experimentation | Networking · ML · SD-WAN |
-| [**lingo_suite**](https://github.com/adourix/lingo_suite) | Software project | Dart |
-
----
-
-## Currently
-
-- Building and researching Linux network-control systems
-- Exploring network programmability and kernel-level infrastructure
-- Developing stronger systems and networking research skills
-- Preparing applications for **Fall 2027 thesis-based Master's programs**
+<p align="center">
+  <a href="https://github.com/adourix"><strong>GitHub</strong></a>
+  ·
+  <a href="https://www.linkedin.com/in/abdulrahman-ayad-7a09342a6/"><strong>LinkedIn</strong></a>
+  ·
+  <a href="mailto:abdulrahmanayad67@gmail.com"><strong>Email</strong></a>
+</p>
 
 ---
 
 <div align="center">
 
-### Build the policy. Observe the system. Reconcile the state.
-
-[**GitHub Profile**](https://github.com/adourix) · [**LNCS**](https://github.com/adourix/ayad-network-manager) · [**AyadCloud**](https://github.com/adourix/ayadcloud)
+<sub>Building systems where intent becomes enforceable state — and where realized state can be inspected, verified, and corrected.</sub>
 
 </div>
