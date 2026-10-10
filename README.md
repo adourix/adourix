@@ -19,7 +19,7 @@
 
 I am a **Computer & Communication Engineering graduate from Mansoura University, Egypt**, interested in building and researching reliable networked and systems infrastructure.
 
-My current research direction sits at the intersection of **networked systems, Linux systems, network programmability, and automated policy enforcement**. I am particularly interested in the gap between what a system is *supposed* to enforce and what the operating system is *actually* enforcing.
+My current research direction sits at the intersection of **networked systems, Linux systems, network programmability, and automated policy enforcement**. I am particularly interested in the gap between what a system is *supposed to enforce* and what the operating system is *actually enforcing*.
 
 ## Research Interests
 
@@ -75,8 +75,6 @@ A self-hosted platform project focused on containerized deployment, automated ap
 ### AI-Enhanced SD-WAN
 
 A team project exploring machine-learning-assisted SD-WAN. My contribution focused on **network topology design, WAN traffic generation and measurement, and the attack-simulation testbed**.
-
-[View repository →](https://github.com/adourix/depi-garduation-project)
 
 ---
 
